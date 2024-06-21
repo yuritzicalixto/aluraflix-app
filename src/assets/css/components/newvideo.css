@@ -1,0 +1,32 @@
+.form {
+    width: 100%;
+    /* display: flex; */
+    font-family: "Roboto", sans-serif;
+}
+
+ .form-container{
+    margin: 20px 50px 20px 50px ;
+} 
+
+.form-container-title h1{
+    color: #191919;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form-container-title p{
+    color: #cac9c9;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+
+.form-container-head{
+    border-top: 2px solid #2271D1;
+    padding: 10px;
+    border-bottom: 2px solid #2271D1;
+    font-size: 25px;
+    font-weight: bold;
+}
