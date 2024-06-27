@@ -1,4 +1,5 @@
-import "../assets/css/components/CampoTexto.css"
+import "../css/components/CampoTexto.css"
+//import "../assets/css/components/CampoTexto.css"
 
 const CampoTexto =(props)=> {
     const placeholderModificado=`${props.placeholder}...`;

@@ -1,8 +1,8 @@
 // import "../css/components/newvideo.css"
 import "../assets/css/components/newvideo.css"
-import CampoTexto from "./CampoTexto"
-import ListaOpciones from "./ListaOpciones"
-import Boton from "./Boton"
+import CampoTexto from "../assets/componentes/CampoTexto"
+import ListaOpciones from "../assets/componentes/ListaOpciones"
+import Boton from "../assets/componentes/Boton"
 
 const NewVideo =()=> {
     const ManejarEnvio=(e)=>{

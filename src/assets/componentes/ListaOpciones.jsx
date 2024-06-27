@@ -1,5 +1,5 @@
-import "../assets/css/components/ListaOpciones.css"
-//import "../assets/css/components/CampoTexto.css"
+import "../css/components/ListaOpciones.css"
+//import "../assets/css/components/ListaOpciones.css"
 
 const ListaOpciones =()=> {
     const equipos=[
