@@ -1,15 +1,15 @@
 import "../assets/css/components/CampoTexto.css"
 
-const CampoTexto =()=> {
+const CampoTexto =(props)=> {
+    const placeholderModificado=`${props.placeholder}...`;
     return (
-        <section className="formulario">
-
+        <section className="formularios">
             <div className="form-campos">
-            <label>Titulo</label>
-            <input placeholder="Ingresa nombre"/>
+            <label>{props.titulo}</label>
+            <input placeholder={placeholderModificado} required={props.required}/>
             </div>
 
-            <div className="form-campos">
+            {/* <div className="form-campos">
             <label>Categoria</label>
             <input placeholder="Ingresa nombre"/>
             </div>
@@ -27,7 +27,7 @@ const CampoTexto =()=> {
             <div className="form-campos">
             <label>Descripción</label>
             <input placeholder="Ingresa nombre"/>
-            </div>
+            </div> */}
             
         </section>
     )

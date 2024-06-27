@@ -1,0 +1,21 @@
+.form-campos{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-campos label{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.form-campos select{
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+    border:none;
+    padding: 30px 20px;
+    outline-color: #6278F7;
+    font-size: 16px;
+    box-sizing: border-box;
+}
